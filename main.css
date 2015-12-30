@@ -1,0 +1,54 @@
+/* Title */
+
+body {
+	font-family: arial;
+}
+
+#title {
+	text-align: center;
+	margin-top: 5%;
+
+}
+
+/* Buttons */
+#button-wrapper{
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+#bt-clear-grid {
+	width: 150px;
+	padding: 5px 5px;
+	background: white;
+	border: 1px black solid;
+	font-size: 14;
+	margin: 0 0 5 5;
+}
+
+
+/* Grid */
+
+#wrapper {
+	width: 600;
+	height: 600;
+	margin: 3% auto;
+	outline: 1px black solid;
+}
+
+.row {
+	width: 600;
+	height: 12.5%;
+	background: white;
+}
+
+.square {
+	width: 12.5%;
+	height: 100%;
+	margin: 0px;
+	outline: 1px black solid;
+	display: inline-block;
+	float: left;
+	background: orange;
+	opacity: .2;
+}
